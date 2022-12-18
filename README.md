@@ -1,1 +1,1 @@
-# nonbot.cf
+# rookie-spitfire.cf
