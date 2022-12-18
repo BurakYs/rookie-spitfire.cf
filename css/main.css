@@ -27,10 +27,13 @@ body {
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
 .privacy-policy,
-.tos ol, ul {
+.tos ol,
+ul {
     font-size: large;
 }
+
 .nav-link {
     font-size: 14px !important;
     background: transparent !important;
