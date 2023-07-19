@@ -113,8 +113,8 @@
         window.addEventListener("DOMContentLoaded", function () {
             let language = navigator.language || navigator.userLanguage
             language = language?.toLowerCase()
-            if ((language === "en-us" || language === "en-gb") && !window.location.pathname.startsWith("/en")) {
-                window.location.href = "/en"
+            if ((language === "en-us" || language === "en-gb") && window.location.pathname !== "/") {
+                window.location.href = "/"
             }
         })
     </script>
