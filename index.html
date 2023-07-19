@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 
 <head>
     <title>Spitfire - Discord bot</title>
     <link rel="icon" href="/assets/BotLogo.png" type="image/png" />
-    <meta name="description"
-        content="İçerik mağazası, arkadaşlarını yönetme, kozmetikler satın alma, günlük görevler, dolabım ve daha fazlası!">
+    <meta name="description" content="Item shop, manage friends, buy cosmetics, daily quests, locker and more!">
     <meta property="og:description"
-        content="İçerik mağazası, arkadaşlarını yönetme, kozmetikler satın alma, günlük görevler, dolabım ve daha fazlası!" />
+        content="Item shop, manage friends, buy cosmetics, daily quests, locker and more!" />
     <meta property="og:title" content="Spitfire - Discord Bot" />
     <meta property="og:type" content="website" />
     <meta name="theme-color" content="#3E8D2A">
@@ -33,33 +32,32 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important"> </div>
     </nav>
     <div class="heading">
-        <h1 class="display-5 title">Şimdi Spitfire'ı Kullanma Zamanı.</h1>
+        <h1 class="display-5 title">Its Time to Use Rookie Spitfire.</h1>
         <p class="subtitle">
-        <p>Spitfire, Fortnite için kullanımı kolay bir Discord botudur.</p>
-        <a class="btn btn-primary btn-lg" href="/support" target="_blank" role="button">Destek
-            Sunucusu</a>
-        <a class="btn btn-secondary btn-lg" href="/invite" target="_blank" role="button">Sunucuna Ekle</a>
+        <p>Spitfire is a easy-to-use Fortnite bot for Discord.</p>
+        <a class="btn btn-primary btn-lg" href="/support" target="_blank" role="button">Support Server</a>
+        <a class="btn btn-secondary btn-lg" href="/invite" target="_blank" role="button">Add to Discord</a>
         <br /><br /><br />
     </div>
     <div class="features">
-        <div class="title">Hizmetler</div>
+        <div class="title">Services</div>
         <div class="cards">
             <div class="card" style="width: 18rem;">
                 <div class="card-body">
-                    <h5 class="card-title">Arkadaşlar</h5>
-                    <p class="card-text">Epic Games'i bile başlatmadan tüm arkadaşlarını yönet!</p>
+                    <h5 class="card-title">Friend List</h5>
+                    <p class="card-text">Manage all your friends without even launching Epic Games!</p>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
                 <div class="card-body">
-                    <h5 class="card-title">İstatistikler</h5>
-                    <p class="card-text">Dünyayı Kurtar, Battle Royale, Kreatif istatistiklerini görüntüle!</p>
+                    <h5 class="card-title">Statistics</h5>
+                    <p class="card-text">View Save the World, Battle Royale, Creative stats!</p>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
                 <div class="card-body">
-                    <h5 class="card-title">Etkileşime Geç</h5>
-                    <p class="card-text">Sadece bir komutla arkadaş ekle, hediye et, ucuza V-Papel satın al!</p>
+                    <h5 class="card-title">Interact</h5>
+                    <p class="card-text">Add friends, send gifts, buy V-Bucks cheaply with just one command!</p>
                 </div>
             </div>
         </div>
@@ -71,7 +69,7 @@
                     <p class="card-title"
                         style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">
                         55+</p>
-                    <p style="font-weight: bold !important;font-size: 20px !important;">sunucu</p>
+                    <p style="font-weight: bold !important;font-size: 20px !important;">servers</p>
                 </div>
             </div>
             <div class="card statistic" style="width: 18rem;">
@@ -79,7 +77,7 @@
                     <p class="card-title"
                         style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">
                         22K+</p>
-                    <p style="font-weight: bold !important;font-size: 20px !important;">kullanıcı</p>
+                    <p style="font-weight: bold !important;font-size: 20px !important;">users</p>
                 </div>
             </div>
             <div class="card statistic" style="width: 18rem;">
@@ -87,7 +85,7 @@
                     <p class="card-title"
                         style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">
                         1500+</p>
-                    <p style="font-weight: bold !important;font-size: 20px !important;">kanal</p>
+                    <p style="font-weight: bold !important;font-size: 20px !important;">channels</p>
                 </div>
             </div>
         </div>
@@ -96,25 +94,25 @@
         <div class="start">
             <div class="card">
                 <div class="card-body gs-card">
-                    <div class="title">Denemeye Hazır mısın?<div>
-                            <!--<div class="subtitle">tıkla</div>
+                    <div class="title">Are You Ready to Try?<div>
+                            <!--<div class="subtitle">click</div>
                             <br />-->
                             <a class="btn btn-primary btn-lg" style="margin-top: 10px !important;"
-                                href="/invite">Başla</a>
+                                href="/invite">Start</a>
                         </div><br />
                     </div>
                 </div>
 
             </div>
-            <script src="js/now-ui-kit.min.js"></script>
+            <script src="/js/now-ui-kit.min.js"></script>
         </div>
     </div>
     <script>
         window.addEventListener("DOMContentLoaded", function () {
             let language = navigator.language || navigator.userLanguage
             language = language?.toLowerCase()
-            if ((language === "en-us" || language === "en-gb") && !window.location.pathname.startsWith("/en")) {
-                window.location.href = "/en"
+            if ((language === "tr-tr") && !window.location.pathname.startsWith("/tr")) {
+                window.location.href = "/tr"
             }
         })
     </script>
