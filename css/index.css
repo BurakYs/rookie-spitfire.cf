@@ -59,14 +59,14 @@ html,
 }
 
 
-@media screen and (max-width:922px) {
+@media screen and (max-width: 922px) {
 
     .background .background-image-animation,
     .background .background-image-animation-2 {
         display: none
     }
 
-    ;
+;
 }
 
 .centerv {
@@ -96,8 +96,7 @@ html,
     display: flex;
     position: fixed;
     flex-direction: column;
-    margin-left: 10%;
-    ;
+    margin-left: 10%;;
 }
 
 .landingpage .header {
@@ -181,7 +180,7 @@ html,
     animation: floatarrow 1.5s ease-in-out infinite
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
     .background .background-image {
         background-position: center
     }
@@ -215,7 +214,7 @@ html,
         font-size: 30px
     }
 
-    ;
+;
 }
 
 .featurescenter {
@@ -388,7 +387,7 @@ html,
     margin-right: 10%;
 }
 
-@media screen and (max-width:1030px) {
+@media screen and (max-width: 1030px) {
     .features .reversefeature .bottomdashline {
         justify-content: center
     }
@@ -445,7 +444,7 @@ html,
         margin-left: 0
     }
 
-    ;
+;
 }
 
 .support {
@@ -513,7 +512,7 @@ html,
     cursor: pointer
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width: 700px) {
     .supportgeneral {
         flex-direction: column
     }
@@ -527,7 +526,7 @@ html,
         text-align: center
     }
 
-    ;
+;
 }
 
 .allfeatures {
@@ -668,7 +667,7 @@ h2 {
     max-width: 80%;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
     .allfeatures .centerallfeatures .rightarea .rows {
         flex-direction: column;
         margin-bottom: 0
@@ -684,10 +683,10 @@ h2 {
         max-width: 100%
     }
 
-    ;
+;
 }
 
-@media screen and (max-width:940px) {
+@media screen and (max-width: 940px) {
     .allfeatures .centerallfeatures {
         flex-direction: column
     }
@@ -730,7 +729,7 @@ h2 {
         max-width: 70%
     }
 
-    ;
+;
 }
 
 .morefeature {
@@ -978,7 +977,7 @@ h2 {
     display: none
 }
 
-@media screen and (max-width:1040px) {
+@media screen and (max-width: 1040px) {
     .morefeature .centermorefeature {
         flex-direction: column;
         margin: 0 5%;
@@ -1006,6 +1005,4 @@ h2 {
     .activated {
         display: block
     }
-
-    ;
 }
